@@ -1,0 +1,239 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+
+.logo2 {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+
+.logo {
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+.pogas {
+    display: flex;
+    gap: 10px;
+}
+
+
+.logo2 a {
+    background-color:slategrey;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+
+.logo2 a:hover {
+    background-color:lavender;
+}
+
+
+.text {
+    background-color: palevioletred;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.text img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.text p {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+
+.dzivnieki {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.kaste {
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+
+.kaste img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+button {
+    background-color:slategrey;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color:slategrey;
+}
+
+
+.suna-saite {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+.suna-saite img {
+    transition: 0.3s;
+}
+
+
+.suna-saite:hover img {
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+
+.suna-saite button {
+    cursor: pointer;
+}
+
+
+.sunu-virsraksts {
+    color:slategrey;
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+
+.sunu-apraksts {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.dzivnieki {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+
+.kaste {
+    background-color: white;
+    width: 220px;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px lightgray;
+    transition: 0.3s;
+}
+
+
+.kaste:hover {
+    transform: translateY(-5px);
+}
+
+
+.kaste img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.kaste h3 {
+    color:slategrey;
+}
+
+
+.kaste p {
+    font-size: 15px;
+}
+
+
+.atpakal {
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    background-color:slategrey;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+
+
+
+.atpakal:hover {
+    background-color:slategrey;
+}
+
+
+.meklētājs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px lightgray;
+    position: relative;
+}
+
+
+.meklētājs input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.meklētājs button {
+    position: absolute;
+    right: 20px;
+    padding: 12px 25px;
+}

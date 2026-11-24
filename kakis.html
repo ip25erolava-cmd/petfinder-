@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaķis</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<div class="meklētājs">
+    <input type="text" id="meklet" placeholder="Meklēt sunīti...">
+    <button onclick="mekletSuni()">Meklēt</button>
+</div>
+
+
+    <div class="dzivnieki">
+
+
+<div class="kaste">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.Afq8_E_Klz-tqfmp4D7SogHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Eiropas īspalvainais kaķis</p>
+             <p>3 gadi </p>
+        </div>
+
+
+
+
+        <div class="kaste">
+            <img src="https://catpedia.net/wp-content/uploads/2025/08/Siamese-Cat-inline.png">
+             <p>Siāmas kaķis</p>
+             <p>4 gadi </p>
+        </div>
+
+
+
+
+         <div class="kaste">
+            <img src="https://a.storyblok.com/f/176726/1087x721/eb6a30b21c/facts-about-maine-coon-cats.jpeg/m/1600x0">
+            <p>Meinkūna kaķis</p>
+            <p>3</p>
+    </div>
+
+
+
+
+    <div class="kaste">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.6112ws4BBrCK-lvxRiguXQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Persijas kaķis</p>
+             <p>4 gadi</p>
+    </div>
+
+
+
+
+    <div class="kaste">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.m5GIUH1WQcj_uvQtnxOFXAHaFV?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p></p>
+    </div>
+
+
+
+
+     <div class="kaste">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.llQs_UqYwsHT8iBqsno2_gHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+     <div class="kaste">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.BHCzG5Q-ATQy_urgOpgjPAHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+    <div class="kaste">
+            <img src="https://www.bubblypet.com/wp-content/uploads/2022/12/Orange-and-white-cat-breed-sitting-on-the-street-2048x1365.jpg">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+     <div class="kaste">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.rReqYk3RHuu_9dcnAk3tnQHaE1?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+     <div class="kaste">
+            <img src="https://media.istockphoto.com/id/1502311480/photo/baby-charlie.jpg?s=612x612&w=0&k=20&c=aZEQlDE2iSAiGNfEJDdG4vqKs1FX_V3x2cqRPJd0sV8=">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+    <div class="kaste">
+            <img src="https://thumbs.dreamstime.com/b/cute-house-cat-posing-light-background-home-national-cats-day-domestic-pet-cute-house-cat-posing-light-background-home-267414957.jpg">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+     <div class="kaste">
+            <img src="https://cdn.mos.cms.futurecdn.net/PAyDK8eyvNTtwHXHeWTiiD.jpg">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+    <div class="kaste">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.8Z6aOiWeIkiM0dXAAp__TwHaEg?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+      <div class="kaste">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.WmErRALVoD1OD9KnRa79uwHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+      <div class="kaste">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.uHwrPVnB1pWVhfxzR6uTbAHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Mīļa un aktīva sunīte.</p>
+    </div>
+
+
+
+
+
+
+
+
+    <br>
+
+
+
+
+     <a href="index.html" class="atpakal">
+        Atgriezties sākumlapā
+    </a>
+
+
+
+
+     <script>
+function mekletSuni() {
+    let ievade = document.getElementById("meklet").value.toLowerCase();
+
+
+    let sunuKastes = document.querySelectorAll(".kaste");
+
+
+    sunuKastes.forEach(function(kaste) {
+        let teksts = kaste.innerText.toLowerCase();
+
+
+        if (teksts.includes(ievade)) {
+            kaste.style.display = "block";
+        } else {
+            kaste.style.display = "none";
+        }
+    });
+}
+</script>
+
+
+</body>
+</html>
